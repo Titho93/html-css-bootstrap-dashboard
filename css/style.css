@@ -116,15 +116,21 @@ main {
   position: relative;
 }
 
-.side-down a i {
-  color: white;
+.side-down .setting {
+  padding: 10px 18px;
+  margin: 0 6px;
   position: absolute;
-  top: 45%;
-  left: 12%;
-  padding: 5px 15px;
 }
 
-.side-down a:hover i {
+.side-down a i {
+  color: white;
+}
+
+.side-down .setting span {
+  padding: 0 18px;
+}
+
+.side-down .setting:hover {
   border: 1px solid white;
   background-color: rgba(211, 211, 211, 0.951);
 }
