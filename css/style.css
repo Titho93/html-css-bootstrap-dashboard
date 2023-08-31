@@ -35,7 +35,7 @@ main {
   position: fixed;
 }
 
-.side-bar {
+.side-bar-t {
   background-color: #051E34;
   width: 65px;
   height: 100%;
@@ -80,6 +80,31 @@ main {
 
 /* Side-bar  */
 
+.side-up {
+  width: 100%;
+  height: calc(100% - 80px);
+  padding-top: 30px;
+  position: relative;
+}
+
+.side-up ul {
+  list-style: none;
+  position: absolute;
+  left: -10px;
+}
+
+.side-up ul li {
+  padding: 5px 0;
+}
+
+.side-up ul a {
+  color: white;
+}
+
+.side-down {
+  width: 100%;
+  height: 80px;
+}
 
 /* Media query  */
 
