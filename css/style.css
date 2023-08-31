@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+
+
+/* Main  */
+.nav-t {
+  width: 100vw;
+  height: 70px;
+  background-color: #F8F9FA;
+  position: fixed;
+}
+
+.side-bar {
+  background-color: blue;
+  width: 150px;
+  height: 100vh;
+}
+
+.content {
+  width: calc(100vw - 150px);
+  height: 100vh;
+}
+
+/* Nav  */
