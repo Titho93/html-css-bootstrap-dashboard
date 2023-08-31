@@ -44,8 +44,9 @@ main {
 }
 
 .content {
-  width: calc(100vw - 65px);
-  height: calc(100%);
+  width: calc(100% - 65px);
+  height: 100%;
+  overflow: hidden;
 }
 
 /* Nav  */
@@ -133,6 +134,15 @@ main {
 .side-down .setting:hover {
   border: 1px solid white;
   background-color: rgba(211, 211, 211, 0.951);
+}
+
+/* Content  */
+.content .bar {
+  background-color: #1C72E8;
+}
+
+.content .row h2 {
+  color: white;
 }
 
 /* Media query  */
