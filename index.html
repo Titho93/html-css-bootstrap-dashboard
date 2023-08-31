@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Css -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Javascript  -->
@@ -16,13 +18,26 @@
 
   <header>
     <div class="nav-t border">
-      <div class="container-t border">
-        <div class="row my-3  border">
-          <div class="col-2  border">
+      <div class="container-t">
+        <div class="row my-3">
+          <div class="col-2">
             <img src="img/logo.svg" alt="Logo">
           </div>
-          <div class="col border">search</div>
-          <div class="col-2 border">utility</div>
+          <div class="col search-t">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Provare a cercare: Lezioni di Laravel" aria-label="Search">
+            </form>
+          </div>
+          <div class="col-2">
+            <div class="container-t">
+              <div class="row ">
+                <div class="col-2 offset-3"><i class="fa-solid fa-list-ul"></i></div>
+                <div class="col-2"><i class="fa-solid fa-circle-question"></i></div>
+                <div class="col-2"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                <div class="col-2"><i class="fa-solid fa-bell" style="color: #ff8f02;"></i></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       

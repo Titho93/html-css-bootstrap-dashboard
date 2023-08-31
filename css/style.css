@@ -30,3 +30,20 @@
 }
 
 /* Nav  */
+
+.nav-t input {
+  background-color: #E5E5E5;
+}
+
+.nav-t img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.container-t .row {
+  background-color: white;
+}
+
+.container-t i {
+  line-height: 40px;
+} 
