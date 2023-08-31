@@ -90,20 +90,39 @@ main {
 .side-up ul {
   list-style: none;
   position: absolute;
-  left: -10px;
+  left: -25px;
 }
 
 .side-up ul li {
-  padding: 5px 0;
+  padding: 5px 15px;
 }
 
 .side-up ul a {
   color: white;
 }
 
+.side-up li:hover {
+  border: 1px solid white;
+  background-color: rgba(211, 211, 211, 0.951);
+}
+
 .side-down {
   width: 100%;
   height: 80px;
+  position: relative;
+}
+
+.side-down a i {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 12%;
+  padding: 5px 15px;
+}
+
+.side-down a:hover i {
+  border: 1px solid white;
+  background-color: rgba(211, 211, 211, 0.951);
 }
 
 /* Media query  */
