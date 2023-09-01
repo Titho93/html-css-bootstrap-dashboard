@@ -16,6 +16,79 @@
 </head>
 <body>
 
+  <div class="collapse" id="collapseExample">
+    <div id="form">
+      <form action="#" method="post">
+          <div class="container">
+            <div class="row">
+              <div class="col-11 my-4">
+                <h6 class="d-block">Inserisci un nuovo studente</h6>
+              </div>
+              <div class="col-1 my-3">
+                <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                </button>
+              </div>
+              <div class="col-6">
+                <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              <div class="col-6">
+                <label for="exampleFormControlInput2" class="form-label">Cognome</label>
+                <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
+              </div>
+              <div class="col-6">
+                <label for="exampleFormControlInput3" class="form-label">Email</label>
+                <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+                </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="">
+                 </div>
+              </div>
+              <div class="col-6">
+                <label for="inputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword1" placeholder="">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2">Indirizzo</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="">
+              </div>
+              <div class="col-6">
+                <label for="inputCity">Città</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-4">
+                <label for="inputState">Stato</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Scegli...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-2">
+                <label for="inputZip">Cap</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <label for="formFile" class="form-label">Foto</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+              <div class="col-12 p-4 ">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Seleziona per proseguire
+                </label>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Salva</button>
+                <input class="btn btn-warning" type="reset" value="Svuota">
+              </div>
+            </div>
+          </div>
+      </form>
+    </div>
+
+  </div>
+
   <header>
     <div class="nav-t border">
       <div class="container-t">
@@ -75,24 +148,31 @@
           <div class="row pt-1">
             <div class="col-12 bar">
               <div class="container-t px-3">
-                <div class="row">
-                  <div class="col py-3  col-md-6">
+                <div class="row py-4">
+                  <div class="col-4 col-md-6 first">
                     <div class="name">
                       <h2 class="d-inline-block ">Boolean</h2> 
                       <span>Piano blaze</span>
                     </div>
                     <div class="app">
                       <span>3 app</span>
-                      <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i>
-                      <span>Boolean mobile app</span>
-                      <span>Boolean web app</span>
-                      <span>Boolean blog app</span>
-                    </div>
-                    
-                    
+                      <div class="chevron d-inline-block ">
+                        <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                      <span class="plus d-md-none">+</span>
+                      <span class="d-none d-md-inline-block  ">Boolean mobile app</span>
+                      <span class="d-none d-md-inline-block  ">Boolean web app</span>
+                      <span class="d-none d-md-inline-block  ">Boolean blog app</span>
+                    </div>  
                   </div>
-                  <div class="col">a</div>
-                  <div class="col">a</div>
+                  <div class="col-4 col-md-3 second">
+                    <span>Studenti online negli ultimi 30 minuti</span>
+                    <h2>125</h2>
+                  </div>
+                  <div class="col-4 col-md-3 third">
+                    <span class="px-2">Nuovo studente</span>
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">+</button>
+                  </div>
                 </div>
               </div>
             </div>
