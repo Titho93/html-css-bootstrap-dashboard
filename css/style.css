@@ -14,7 +14,14 @@
 
 .red {
   background-color: red;
-  color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
 }
 
 /* Main  */
@@ -46,7 +53,7 @@ main {
 .content {
   width: calc(100% - 65px);
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* Nav  */
@@ -174,6 +181,27 @@ main {
 .content .second h2 {
   padding-top: 15px;
 }
+
+/* Table  */
+
+table td:first-child {
+  width: 60%;
+}
+
+table tr {
+  font-size: 13px;
+}
+
+table td .code {
+  background-color: red;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+table td button i {
+  font-size: 12px;
+}
+
 
 
 /* Media query  */
