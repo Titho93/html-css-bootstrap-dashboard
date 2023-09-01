@@ -184,10 +184,6 @@ main {
 
 /* Table  */
 
-table td:first-child {
-  width: 60%;
-}
-
 table tr {
   font-size: 13px;
 }
@@ -213,5 +209,10 @@ table td button i {
   .content {
     width: calc(100vw - 150px);
   }
+
+  table td:first-child {
+    width: 50%;
+  }
+
 
 }
