@@ -185,22 +185,4 @@ main {
     width: calc(100vw - 150px);
   }
 
-  #form .container {
-    width: 40vw;
-  }
 }
-
-/* Form  */
-body {
-  position: relative;
-}
-
-#form .container {
-  position: absolute;
-  right: 0;
-  height: 100vh;
-  z-index: 999;
-  background-color: white;
-  border: 1px solid black;
-}
-
