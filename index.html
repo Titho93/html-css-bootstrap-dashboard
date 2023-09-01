@@ -53,7 +53,7 @@
   </header>
 
   <main class="d-flex"> 
-
+    
     <div class="side-bar-t">
       <div class="side-up">
         <ul>
@@ -68,7 +68,6 @@
         </div>     
       </div>
     </div>
-
     <div class="content">
       <div class="container-t">
         <div class="fluid-container">
@@ -81,8 +80,7 @@
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                       +
                     </button>
-                    
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabe">
+                    <div class="offcanvas resize-t offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabe">
                       <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -92,15 +90,15 @@
                           <form action="#" method="post">
                               <div class="container">
                                 <div class="row">
-                                  <div class="col-6">
+                                  <div class="col-12 col-md-6">
                                     <label for="exampleFormControlInput1" class="form-label">Nome</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                   </div>
-                                  <div class="col-6">
+                                  <div class="col-12 col-md-6">
                                     <label for="exampleFormControlInput2" class="form-label">Cognome</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
                                   </div>
-                                  <div class="col-6">
+                                  <div class="col-12 col-md-6">
                                     <label for="exampleFormControlInput3" class="form-label">Email</label>
                                     <div class="input-group mb-2">
                                     <div class="input-group-prepend">
@@ -109,7 +107,7 @@
                                       <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="">
                                      </div>
                                   </div>
-                                  <div class="col-6">
+                                  <div class="col-12 col-md-6">
                                     <label for="inputPassword1" class="form-label">Password</label>
                                     <input type="password" class="form-control" id="inputPassword1" placeholder="">
                                   </div>
@@ -117,18 +115,18 @@
                                     <label for="inputAddress2">Indirizzo</label>
                                     <input type="text" class="form-control" id="inputAddress2" placeholder="">
                                   </div>
-                                  <div class="col-6">
+                                  <div class="col-12 col-md-6">
                                     <label for="inputCity">Città</label>
                                     <input type="text" class="form-control" id="inputCity">
                                   </div>
-                                  <div class="col-4">
+                                  <div class="col-12 col-md-4">
                                     <label for="inputState">Stato</label>
                                     <select id="inputState" class="form-control">
                                       <option selected>Scegli...</option>
                                       <option>...</option>
                                     </select>
                                   </div>
-                                  <div class="col-2">
+                                  <div class="col-12 col-md-2">
                                     <label for="inputZip">Cap</label>
                                     <input type="text" class="form-control" id="inputZip">
                                   </div>
@@ -185,18 +183,15 @@
                       Prossime classi
                     </div>
                     <div class="card-body">
-                      
                       <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Data inizio</th>
-                            <th scope="col">ROI</th>
-                            <th scope="col">Stato</th>
-                            <th scope="col">Azioni</th>
-                          </tr>
-                        </thead>
                         <tbody>
+                          <tr>
+                            <td scope="row">Nome</td>
+                            <td>Data inizio</td>
+                            <td>ROI</td>
+                            <td>Stato</td>
+                            <td>Azioni</td>
+                          </tr>
                           <tr>
                             <td scope="row"><span class="code"><i class="fa-solid fa-code"></i></span> Classe 75</td>
                             <td>15 Feb 2021</td>
@@ -312,10 +307,8 @@
                           
                         </tbody>
                       </table>
-
                     </div>
                   </div>
-
                   <div class="card my-4">
                     <div class="card-header">
                       F.A.Q
@@ -355,10 +348,8 @@
                       </div>
                     </div>
                   </div>
-    
                 </div>
-                <div class="col-12 col-md-4 ">
-                  
+                <div class="col-12 col-md-4 ">     
                   <div class="card">
                     <div class="card-header">
                       Todo
@@ -380,7 +371,6 @@
                       </ul>
                     </div>
                   </div>
-
                   <div class="card my-4 ">
                     <div class="card-body">
                       <div class="card" style="width: w-100;">
@@ -400,19 +390,13 @@
                       </div>
                     </div>
                   </div>
-
-
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
     </div>
-
   </main>
 
   <footer></footer>

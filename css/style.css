@@ -200,7 +200,9 @@ table td button i {
   font-size: 12px;
 }
 
-
+.resize-t {
+  width: 100% !important;
+}
 
 /* Media query  */
 
@@ -216,5 +218,7 @@ table td button i {
     width: 50%;
   }
 
-
+  .resize-t {
+    width: 50% !important;
+  }
 }
