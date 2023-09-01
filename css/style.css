@@ -187,13 +187,16 @@ main {
 /* Table  */
 
 table tr {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 table td .code {
   background-color: red;
-  padding: 2px;
+  padding: 3px;
+  margin-right: 5px;
   border-radius: 50%;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 table td button i {
@@ -219,6 +222,6 @@ table td button i {
   }
 
   .resize-t {
-    width: 50% !important;
+    width: 40% !important;
   }
 }
